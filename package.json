@@ -1,5 +1,5 @@
 {
-  "name": "vite-plugin-svg-icon",
+  "name": "@dumplings/vite-plugin-svg-icon",
   "version": "0.1.0",
   "scripts": {
     "dev": "vite",
