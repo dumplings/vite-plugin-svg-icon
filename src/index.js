@@ -50,4 +50,4 @@ const main = (rootPath, prefix) => ({
   }
 })
 
-export default main
+module.exports = main
