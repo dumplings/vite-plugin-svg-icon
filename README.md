@@ -10,5 +10,26 @@ npm install @dumplings/vite-plugin-svg-icon
 
 ```javascript
 // vite.config.js
-import svgPlugin 
+import svgPlugin from '@dumplings/vite-plugin-svg-icon';
+
+export default defineConfig({
+  plugins: [
+    //.. other plugins
+    // put your svg files in this path, svg file's name is the vue compoment props.name
+    svgPlugin('the/svg/files/path'),
+  ]
+})
+```
+
+```javascript
+// app files
+const app = createApp(VueApp);
+app.use(SvgIcon);
+app.mount('#app')
+```
+
+```vue
+<template>
+  <svg-icon name="someicon" />
+</template>
 ```
