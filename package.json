@@ -6,6 +6,8 @@
     "build": "vue-cli-service build --target lib --name vitePluginSvgIcon --dest dist src/main.js",
     "lint": "vue-cli-service lint"
   },
+  "homepage": "https://github.com/dumplings/vite-plugin-svg-icon",
+  "bugs": "https://github.com/dumplings/vite-plugin-svg-icon/issues",
   "keywords": [
     "vue",
     "vite",
