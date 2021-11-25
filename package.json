@@ -1,11 +1,12 @@
 {
-  "name": "@dumplings/vite-plugin-svg-icon",
+  "name": "vite-plugin-svg-icon",
   "version": "0.1.1",
   "scripts": {
     "dev": "vite",
     "build": "vue-cli-service build --target lib --name vitePluginSvgIcon --dest dist src/main.js",
     "lint": "vue-cli-service lint"
   },
+  "author": "dumplings0415@gmail.com",
   "main": "src/index.js",
   "exports": {
     ".": "./src/index.js",
