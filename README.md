@@ -10,7 +10,7 @@ npm install @dumplings/vite-plugin-svg-icon
 
 ```javascript
 // vite.config.js
-import svgPlugin from 'vite-plugin-svg-icon';
+import svgPlugin from '@dumplings/vite-plugin-svg-icon';
 
 export default defineConfig({
   plugins: [
@@ -23,7 +23,7 @@ export default defineConfig({
 
 ```javascript
 // app main file
-import SvgIcon from 'vite-plugin-svg-icon/vue';
+import SvgIcon from '@dumplings/vite-plugin-svg-icon/vue';
 
 const app = createApp(VueApp);
 app.use(SvgIcon);
